@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace WorkingWithCSVExample
 {
-    public class Student
+    public class Student //Record OR Row in the flat file DB that is student.csv
     {
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
